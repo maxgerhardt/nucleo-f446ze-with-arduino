@@ -7,6 +7,7 @@
     "mcu": "stm32f446zet6",
     "product_line": "STM32F446xx",
     "variant": "STM32F4xx/F446Z(C-E)(H-J-T)",
+	"mbed_variant": "NUCLEO_F446ZE",
     "hwids": [
       [
         "0xDF11",
@@ -48,7 +49,8 @@
       "stlink",
       "blackmagic",
       "mbed",
-	  "dfu"
+	  "dfu",
+	  "serial"
     ]
   },
   "url": "https://developer.mbed.org/platforms/ST-Nucleo-F446ZE/",
