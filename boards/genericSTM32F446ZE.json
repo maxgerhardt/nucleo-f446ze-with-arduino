@@ -37,7 +37,8 @@
       "cmsis-dap",
       "stlink",
       "blackmagic",
-      "mbed"
+      "mbed",
+	  "dfu"
     ]
   },
   "url": "https://developer.mbed.org/platforms/ST-Nucleo-F446ZE/",
