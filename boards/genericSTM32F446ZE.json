@@ -9,7 +9,7 @@
     "variant": "STM32F4xx/F446Z(C-E)(H-J-T)",
     "hwids": [
       [
-        "0x0483",
+        "0xDF11",
         "0x0421"
       ],
       [
