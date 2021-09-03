@@ -1,0 +1,45 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F446xx -DSTM32F4xx",
+    "f_cpu": "180000000L",
+    "mcu": "stm32f446zet6",
+    "product_line": "STM32F446xx",
+    "variant": "STM32F4xx/F446Z(C-E)(H-J-T)"
+  },
+  "debug": {
+    "default_tools": [
+      "stlink"
+    ],
+    "jlink_device": "STM32F446ZE",
+    "onboard_tools": [
+      "stlink"
+    ],
+    "openocd_board": "st_nucleo_f4",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F446x.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3",
+	"mbed"
+  ],
+  "name": "STM32F446ZE (128k RAM. 512k Flash)",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 524288,
+    "protocol": "stlink",
+    "protocols": [
+      "jlink",
+      "cmsis-dap",
+      "stlink",
+      "blackmagic",
+      "mbed"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/ST-Nucleo-F446ZE/",
+  "vendor": "ST"
+}
