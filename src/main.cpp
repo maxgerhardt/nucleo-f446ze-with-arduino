@@ -10,6 +10,12 @@
 // select LED to blink
 #define LED LED1
 
+#if HSE_VALUE == 8000000L
+#error "HSE value is 8MHz
+#else 
+#error "HSE value is something else than 8MHz"
+#endif
+
 void setup() {
 	pinMode(LED, OUTPUT);
 	Serial.begin(9600);
