@@ -10,12 +10,8 @@
 	"mbed_variant": "NUCLEO_F446ZE",
     "hwids": [
       [
-        "0xDF11",
-        "0x0421"
-      ],
-      [
-        "0x1EAF",
-        "0x0003"
+        "0x0483",
+        "0xDF11"
       ]
    ]
   },
